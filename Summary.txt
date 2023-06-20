@@ -1,3 +1,4 @@
 // Xampp Install
 // Composer Setup
 // Laravel Install
+// Breeze Auth
