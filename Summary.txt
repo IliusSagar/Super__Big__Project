@@ -4,3 +4,4 @@
 // Breeze Auth
 // Ui Bootstrap Landing Home Page
 // react js install
+// get data api with laravel (get, get/id)
