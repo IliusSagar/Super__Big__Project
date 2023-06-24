@@ -9,3 +9,4 @@
 // flutter data fetch with laravel api
 // laravel bootstrap admin sidebar ui development Black & white color
 // vue install
+// vue get api with laravel
