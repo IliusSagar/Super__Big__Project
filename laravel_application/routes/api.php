@@ -21,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('list',[BlogPostController::class,'list']);
 Route::get('list/{id}',[BlogPostController::class,'listEdit']);
+Route::post('add',[BlogPostController::class,'add']);

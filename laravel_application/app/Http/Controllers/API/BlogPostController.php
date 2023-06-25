@@ -16,4 +16,18 @@ class BlogPostController extends Controller
         return BlogPost::find($id);
     } // End Method
 
+    function add(Request $request){
+        $blog = new BlogPost;
+        $blog->title = $request->title;
+        $blog->description = $request->description;
+        $result = $blog->save();
+
+        if ($result) {
+            return ["Result"=>"Data has been saved!"];
+        }else{
+            return ["Result"=>"Operation failed!"];
+        }
+
+    } // End Method
+
 }

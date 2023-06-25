@@ -10,3 +10,4 @@
 // laravel bootstrap admin sidebar ui development Black & white color
 // vue install
 // vue get api with laravel
+// laravel api post
